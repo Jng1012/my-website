@@ -50,7 +50,23 @@ li a {
   background-color: #303841;
   display: flex;
   align-items: center;
-  justify-content:center;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+
+.profile-pic {
+  margin-top: 3rem;
+}
+
+.welcome-content {
+  max-width: 65%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.welcome-content h2,
+.welcome-content p {
+  margin-top: 3rem;
 }
 
 .project {
@@ -73,7 +89,7 @@ li a {
 
 .project-tile {
   border: 1px solid black;
-  height:35%;
+  height: 35%;
   width: 35%;
   margin: 20px;
 }
@@ -88,17 +104,29 @@ li a {
   font-weight: bold;
 }
 
+.github-project {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact {
   background-color: #303841;
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 @media (max-width: 28.75em) {
   html {
     font-size: 35%;
+  }
+
+  .nav-list {
+    width: 80%;
   }
 
   .project-container {
@@ -115,4 +143,3 @@ li a {
     height: 35%;
   }
 }
-   
