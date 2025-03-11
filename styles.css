@@ -51,7 +51,7 @@ li a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 4rem;
 }
 
 .profile-pic {
@@ -127,6 +127,19 @@ li a {
   .nav-list {
     width: 80%;
   }
+
+  .welcome {
+    padding-top: 10rem;
+  }
+
+  .welcome-content {
+    max-width: 85%;
+  }
+
+  .welcome-content h2,
+.welcome-content p {
+  margin-top: 5rem;
+}
 
   .project-container {
     display: flex;
