@@ -2,14 +2,14 @@ import React from 'react';
 import Navbar from '../components/NavBar';
 import HeroImg from '../components/HeroImg';
 import Footer from '../components/Footer';
-import Work from '../components/Work';
+import Job from '../components/JobExperience';
 
 const Home = () => {
   return (
     <div>
       <Navbar/>
       <HeroImg />
-      <Work />
+      <Job />
       <Footer />
     </div>
   )

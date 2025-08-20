@@ -1,0 +1,64 @@
+.job-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    font-size: 4rem;
+}
+
+.job-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.job-card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+
+}
+
+.job-card img{
+    width: 100%;
+    height: 15rem;
+}
+
+.job-title{
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.job-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.job-btns{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.job-btns .btn{
+    padding: 0.5rem 1rem;
+    display: block;
+    width: 75%;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 740px) {
+    .job-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .job-card img{
+    width: 100%;
+    height: 20rem;
+}
+}   
