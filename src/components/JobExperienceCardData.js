@@ -8,25 +8,25 @@ const JobCardData = [
         imgsrc: EH,
         title: "Product Owner",
         text: "This is a container to add text This is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add text",
-        view: "<sample url>"
+        view: "resume"
     },
     {
         imgsrc: Threecolts,
         title: "Product Manager",
         text: "This is a container to add text This is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add text",
-        view: "<sample url>"
+        view: "resume"
     },
     {
         imgsrc: Zalora,
         title: "Product Manager",
         text: "This is a container to add text This is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add text",
-        view: "<sample url>"
+        view: "resume"
     },
     {
         imgsrc: Digi,
         title: "Product Manager",
         text: "This is a container to add text This is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add textThis is a container to add text",
-        view: "<sample url>"
+        view: "resume"
     }
 
 ];

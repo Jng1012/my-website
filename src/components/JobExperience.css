@@ -57,6 +57,10 @@
         grid-template-columns: 1fr;
     }
 
+    .job-heading{
+        font-size: 3rem
+    }
+
     .job-card img{
     width: 100%;
     height: 20rem;

@@ -48,3 +48,13 @@
     grid-row: 1;
     z-index: 5;
 }
+
+.bottom img{
+    height: 25rem;
+}
+
+@media screen and (max-width: 1040px) {
+    .bottom img{
+    height: 18rem;
+}
+}

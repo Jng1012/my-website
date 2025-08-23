@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./AboutContentStyles.css";
 import Profile from "../assets/Profile.png";
+import Img1 from "../assets/portfolio.png";
+
 
 import React from 'react'
 
@@ -21,7 +23,7 @@ export default function AboutContent() {
                     <img src={Profile} className="img" alt="true" />
                 </div>
                 <div className="img-stack bottom">
-                    <img src={Profile} className="img" alt="true" />
+                    <img src={Img1} className="img" alt="true" />
                 </div>
             </div>
         </div>

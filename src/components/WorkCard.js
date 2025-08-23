@@ -11,8 +11,8 @@ export default function WorkCard(props) {
                 <div className="pro-details">
                     <p>{props.text}</p>
                     <div className="pro-btns">
-                        <NavLink to={props.view} className="btn">View</NavLink>
-                        <NavLink to="url.com" className="btn">Source</NavLink>
+                        <NavLink to={props.view} className="btn" target="blank">View</NavLink>
+                        <NavLink to={props.source} className="btn" target="blank">Source</NavLink>
                     </div>
                 </div>
             </div>

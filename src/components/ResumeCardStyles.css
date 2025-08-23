@@ -1,0 +1,45 @@
+
+
+.resume-header{
+    text-align: center;
+    padding: 10rem 0 2rem 0;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;   /* stack cards vertically */
+  gap: 2rem;                /* spacing between each card */
+  max-width: 900px;
+  margin: 0 auto;           /* center the whole section */
+  padding: 2rem 1rem;
+}
+
+.resume-card {
+  background: #1a1919;      /* card background */
+  padding: 1.5rem 2rem;
+  border-radius: 10px;      /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
+  color: white;             /* text color */
+}
+
+.resume-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.resume-card h3 {
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.resume-card ul {
+  list-style-type: disc;    /* • bullet point */
+  margin: 0.75rem 0;        /* space above and below each ul */
+  padding-left: 1.5rem;     /* indent bullet points */
+  line-height: 1.6;         /* space between lines inside */
+}
+
+.resume-card li {
+  margin-bottom: 0.5rem;    /* spacing between list items */
+}
